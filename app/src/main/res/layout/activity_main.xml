@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Pause"
+            android:onClick="onPause"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Resume"
+            android:onClick="onResume"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:text="Start"
+            android:onClick="onStart"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:text="Stop"
+            android:onClick="onStop"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <com.iigo.library.CubeLoadingView
+        android:id="@+id/clv_loading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <com.iigo.library.CubeLoadingView
+        android:id="@+id/clv_loading2"
+        android:layout_marginTop="70dp"
+        app:firstSideColor="@android:color/holo_red_light"
+        app:secondSideColor="@android:color/holo_blue_light"
+        app:thirdSideColor="@android:color/holo_orange_light"
+        app:fourthSideColor="@android:color/holo_green_light"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

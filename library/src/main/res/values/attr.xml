@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CubeLoadingView">
+        <attr name="firstSideColor" format="color|reference"></attr>
+        <attr name="secondSideColor" format="color|reference"></attr>
+        <attr name="thirdSideColor" format="color|reference"></attr>
+        <attr name="fourthSideColor" format="color|reference"></attr>
+    </declare-styleable>
+</resources>
