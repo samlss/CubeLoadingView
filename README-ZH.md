@@ -1,3 +1,6 @@
+# CubeLoadingView
+一个立体3d旋转的loading view
+
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/CubeLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/CubeLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 ![gif](https://github.com/samlss/CubeLoadingView/blob/master/screenshots/screenshot1.gif)
@@ -61,10 +64,10 @@ dependencies {
 
 | 属性        | 说明           |
 | ------------- |:-------------:|
-| firstSideColor      | 旋转圆弧的颜色 |
-| secondSideColor      | 动画时间 |
-| thirdSideColor | 动画加速器 |
-| fourthSideColor | 动画加速器 |
+| firstSideColor      | 第一面颜色 |
+| secondSideColor      | 第二面颜色 |
+| thirdSideColor | 第三面颜色 |
+| fourthSideColor | 第四面颜色 |
 
 
 <br>
