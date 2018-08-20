@@ -49,18 +49,18 @@ public class MainActivity extends AppCompatActivity {
         cubeLoadingView2.pause();
     }
 
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        cubeLoadingView.setFirstSideColor(Color.RED);
-        cubeLoadingView.setSecondSideColor(Color.RED);
-        cubeLoadingView.setThirdSideColor(Color.RED);
-        cubeLoadingView.setFourthSideColor(Color.RED);
-
-        ViewGroup.LayoutParams layoutParams = cubeLoadingView2.getLayoutParams();
-        layoutParams.width = 300;
-        layoutParams.height = 300;
-        cubeLoadingView2.setLayoutParams(layoutParams);
-
-        return super.onKeyDown(keyCode, event);
-    }
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
+//        cubeLoadingView.setFirstSideColor(Color.RED);
+//        cubeLoadingView.setSecondSideColor(Color.RED);
+//        cubeLoadingView.setThirdSideColor(Color.RED);
+//        cubeLoadingView.setFourthSideColor(Color.RED);
+//
+//        ViewGroup.LayoutParams layoutParams = cubeLoadingView2.getLayoutParams();
+//        layoutParams.width = 300;
+//        layoutParams.height = 300;
+//        cubeLoadingView2.setLayoutParams(layoutParams);
+//
+//        return super.onKeyDown(keyCode, event);
+//    }
 }
