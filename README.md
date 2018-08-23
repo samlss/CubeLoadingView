@@ -10,8 +10,6 @@ A cube 3D rotation loading view.
 
 ![gif](https://github.com/samlss/CubeLoadingView/blob/master/screenshots/screenshot1.gif)
 
-## English
-
 ### Use<br>
 Add it in your root build.gradle at the end of repositories：
 ```
